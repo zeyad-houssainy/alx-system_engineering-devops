@@ -1,0 +1,2 @@
+A 3 "root" /etc/passwde
+grep -c "bin" /etc/passwd
