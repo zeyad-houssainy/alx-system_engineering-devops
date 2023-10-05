@@ -1,3 +1,2 @@
 #!/usr/bin/env ruby
-reg_a = /h.n/
-puts "#{reg_a.match("#{ARGV[0]}")}\n"
+puts ARGV[0].scan(/^h.n$/).join

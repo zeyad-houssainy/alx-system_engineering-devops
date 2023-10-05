@@ -1,3 +1,2 @@
 #!/usr/bin/env ruby
-reg_a = /hbt[t]{0,4}n/
-puts "#{reg_a.match("#{ARGV[0]}")}\n"
+puts ARGV[0].scan(/hbt{1,4}n/).join
