@@ -70,7 +70,3 @@ Shellcheck is available on the school’s computers. If you want to use it on yo
 Examples:
 
 Not passing Shellcheck
-
-```sh {"id":"01HPYCZ70GRH98W17493S1T6NV","interactive":"false"}
-echo "hi"
-```

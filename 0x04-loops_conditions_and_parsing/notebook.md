@@ -5,14 +5,16 @@ runme:
 ---
 
 ```sh {"id":"01HPYDFWWWBWFGBZBB2T5YC2T0","interactive":"false"}
+#!/usr/bin/env bash
 echo "hi"
 ```
 
 ```sh {"id":"01HPYDVA2J6Z37XDQ06N9SAX44","interactive":"false"}
-counter=0
-until (( counter >= 10 ))
-do 
-    echo "Best School"
-    ((counter++))
-done
+#!/usr/bin/env bash
+echo "hi"
+```
+
+```sh {"id":"01HPYGN4KJTYBA4ZHA31V6KC34","interactive":"false"}
+#!/usr/bin/env bash
+echo "hello im zeyad"
 ```
