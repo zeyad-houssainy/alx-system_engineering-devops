@@ -13,4 +13,4 @@ while ((counter <= 10))
                 echo "Best School"
         fi
         ((counter++))
-    done
+done
