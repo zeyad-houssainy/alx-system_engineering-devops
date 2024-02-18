@@ -9,5 +9,5 @@ while [ $counter -lt 10 ]
         else
             echo "Best School"
         fi
-    let counter++
+    ((counter++))
 done
