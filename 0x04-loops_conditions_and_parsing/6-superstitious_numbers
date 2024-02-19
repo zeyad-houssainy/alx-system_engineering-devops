@@ -2,15 +2,17 @@
 # displays numbers from 1 to 20.
 counter=1
 while [ $counter -lt 20 ]
-do
-    if [ $counter = 4 ]; then
-        echo "bad luck from China"
-    elif [ $counter = 9 ]; then
-        echo "bad luck from Japan"
-    elif [ $counter = 17 ]; then
+do  
+    case $counter in
+        4)
+            echo "bad luck from China"
+            ;;
+        8)
+            echo "bad luck from Japan"
+            ;;
+        17)
         echo "bad luck from Italy"
-    else
-        echo $counter
-    fi
+        ;;
+    esac
     ((counter++))
 done
