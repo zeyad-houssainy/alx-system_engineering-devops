@@ -1,2 +1,12 @@
 #!/usr/bin/env bash
 # displays the time for 12 hours and 59 minutes.
+minutes=1
+hours=1
+for hours in {1..12};
+do
+    echo "Hour: $hours"
+    for minutes in {1..59};
+    do
+        echo $minutes
+    done
+done
