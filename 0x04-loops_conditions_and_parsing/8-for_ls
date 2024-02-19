@@ -2,5 +2,5 @@
 # displays the content of the current working directory.
 for i in *
 do
-    echo $i | cut -d'-' -f 2
+    echo $i | cut -d '-' -f 2
 done
