@@ -2,11 +2,14 @@
 # displays the time for 12 hours and 59 minutes.
 minutes=1
 hours=1
-for hours in {1..12};
+while (( hours <= 12));
 do
-    echo "Hour: $hours"
-    for minutes in {1..59};
+    echo "Hours: $hours"
+    while ((minutes <= 59))
     do
-        echo $minutes
+        echo "$minutes"
+        ((minutes++))
     done
+    minutes=1
+    ((hours++))
 done
