@@ -4,7 +4,7 @@ runme:
   version: v3
 ---
 
-```sh {"id":"01HPYDFWWWBWFGBZBB2T5YC2T0","interactive":"false"}
+```xml {"id":"01HPYDFWWWBWFGBZBB2T5YC2T0","interactive":"false"}
 #!/usr/bin/env bash
 echo "hi"
 ```
