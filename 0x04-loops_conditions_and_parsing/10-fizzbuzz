@@ -1,2 +1,17 @@
 #!/usr/bin/env bash
 # displays Best School 10 times.
+for i in {1..100}
+do
+    if [ $((i % 3)) -eq 0] && [ $((i %5)) -eq 0]
+    do
+        echo "FizzBuzz"
+    elif [ $((i % 3)) -eq 0]
+    do
+        echo "Fizz"
+    elif [ $((i % 5)) -eq 0]
+    do
+        echo "Buzz"
+    else
+        echo $i
+    fi
+done
